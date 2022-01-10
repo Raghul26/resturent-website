@@ -1,0 +1,78 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.col
+{
+    flex: 33.33%;
+    max-width: 33.33%;
+    padding: 19px;
+    text-align: center;
+}
+.col p
+{
+    background-color: rgb(216, 216, 216);
+    padding: 19px;
+    border-radius: 19px 19px 19px 19px;
+    box-shadow: 0px 9px 19px -10px rgba(0, 0, 0, 0.534);
+    cursor: pointer;
+}
+.col p:hover
+{
+    box-shadow: 0px 9px 19px -10px rgba(0, 0, 0, 0.856);
+    transition: .5s ease; 
+}
+.service-heading
+{
+    font-size: 19px;
+    font-weight: 400;
+}
+.service1 .fas
+{
+    font-size: 29px;
+    padding-bottom: 9px;
+    color: rgb(65, 65, 65);
+}
+.logo-img
+{
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}
+.backbtn
+{
+    margin-top: 19px;
+    margin-left: 9px;
+    font-size: 29px;
+    font-weight: 500;
+}
+.backbtn a
+{
+    text-decoration: none;
+    color: #CD7F32;
+}
+.backbtn a:hover
+{
+    color: #CD7F32;
+}
+@media (min-width:720px) and (max-width: 1496px) {
+    .container
+    {
+        margin-top: 80px;
+    }
+}

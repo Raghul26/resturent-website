@@ -1,0 +1,602 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.header-1
+{
+    background-color: #000;
+}
+.container1
+{
+    background-color: #000;
+    width: 100%;
+}
+#success-message
+{
+    color: #fff;
+}
+.card-text
+{
+    margin-bottom: 0;
+}
+#card-text,#card-text2,#card-text3
+{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+#card-text.active,#card-text2.active,#card-text3.active
+{
+    display: block;
+}
+#card-text.active ~ #span::before,#card-text2.active ~ #span2::before,#card-text3.active ~ #span3::before
+{
+    content: "Show less";
+    color: rgb(110, 110, 110);
+}
+#span,#span2,#span3
+{
+    cursor: pointer;
+}
+#span::before,#span2::before,#span3::before
+{
+    content: "Show more";
+}
+.btn-text
+{
+    margin-top: 40px;
+}
+.top-btn
+{
+    position: fixed;
+    bottom: 29px;
+    right: 32px;
+    font-size: 29px;
+    transition: all .4s ease-in-out;
+    pointer-events: none;
+    opacity: 0;
+    color: #fff;
+    background-color: rgb(126, 41, 41);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 9px 29px -4px #000;
+}
+.top-btn:hover
+{
+    color: #fff;
+}
+.top-btn.active
+{
+    opacity: 1;
+    pointer-events: auto;
+}
+.navbar-brand img
+{
+    width: 140px;
+}
+.header ul li
+{
+    margin: 0 15px;
+    font-size: 19px;
+}
+.container1
+{
+    background: rgba(0,0,0,0.5)url(./Restaurant-logo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100vh;
+    text-align: center;
+}
+.about-content
+{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    color: #fff;
+}
+.about-content h1
+{
+    font-weight: bold;
+}
+.about-content_p
+{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+.about-content button
+{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.about-content button
+{
+    margin-top: 19px;
+}
+.about-content button a
+{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+    background: brown;
+    padding: 9px 29px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.about-content button a:hover
+{
+    background: rgb(126, 41, 41);
+    transition: .5s;
+}
+.container2
+{
+    margin: 5% 0;
+}
+.card
+{
+    margin-bottom: 19%;
+}
+.container2-content_p
+{
+    color: rgb(70, 70, 70);
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.special-foods
+{
+    text-align: center;
+}
+.special-foods a
+{
+    padding: 8px;
+}
+.special-foods a:hover
+{
+    background-color: #d4a057;
+    color: #000;
+    transition: .5s;
+}
+.container2 .row
+{
+    margin-top: 4%;
+}
+.container2-span1,.container2-span2
+{
+    color: #be8d47;
+}
+.container3
+{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(204, 204, 204);
+}
+.logo-img
+{
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}
+.container3-about_content_p2
+{
+    margin-right: 150px;
+}
+.container3-about_content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15%;
+    margin-top: 4%;
+}
+.container3-about_content img
+{
+    width: 45%;
+    margin-bottom: 5%;
+    box-shadow: 0 19px 40px -10px #000;
+}
+.container3-span
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+.container3-about_content_p2
+{
+    margin-bottom: 40%;
+}
+.container3-span1
+{
+    font-weight: 400;
+    font-size: 19px;
+}
+.container3-span_title
+{
+    color: #be8d47;
+    font-size: 35px;
+}
+.container4
+{
+    margin-top: 19%;
+    margin-bottom: 10%;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow-x: hidden;
+}
+.testimonial-user_profile_img
+{
+    width: 80px;
+    border-radius: 50%;
+}
+.testimonial-user_profile
+{
+    display: flex;
+    align-items: center;
+}
+.testimonial-user_profile_p
+{
+    margin: 0 10px;
+    font-size: 19px;
+}
+.testimonial-carousel
+{
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+    padding: 15px;
+    color: #000;
+}
+.testimonial-user_profile_p1
+{
+    margin-top: 19px;
+}
+.swiper-slide
+{
+    cursor: pointer;
+}
+.container4-title_p1
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container5-p
+{
+    color: rgb(243, 243, 243);
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 10vh;
+    font-family: serif;
+}
+.container5
+{
+    background-color: #CD7F32;
+    text-align: center;
+    width: 100%;
+    padding: 19px;
+    margin: 10% 0;
+}
+.container5 button
+{
+    background-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 19px;
+    outline: none;
+    border: none;
+    letter-spacing: 1px;
+}
+.container5 button a
+{
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 24px;
+    color: #000;
+    background-color: rgb(224, 224, 224);
+    padding: 9px 50px;
+    font-family: serif;
+}
+.container5 button a:hover
+{
+    background-color: rgb(192, 192, 192);
+    transition: .5s;
+}
+.footer
+{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+.footer1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer1 input
+{
+    width: 380px;
+    padding: 10px;
+    font-size: 19px;
+}
+.footer1 input,textarea
+{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid gray;
+}
+.footer1 input[type="text"],.footer1 input[type="email"],textarea
+{
+    color: #fff;
+}
+.footer1 button
+{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.footer1 button
+{
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 19px;
+    color: #000;
+    background-color: rgb(224, 224, 224);
+    padding: 9px 40px;
+    font-family: serif;
+}
+.footer1 button:hover
+{
+    background-color: rgb(180, 180, 180);
+    transition: .5s;
+}
+.footer-p-1
+{
+    font-size: 29px;
+}
+.footer2
+{
+    width: 50%;
+}
+.row img:hover
+{
+    transform: scale(98%);
+    transition: 2s;
+    cursor: pointer;
+}
+.footer1 input:hover,textarea:hover
+{
+    border: 1px solid rgb(192, 192, 192)
+}
+.footer-p1
+{
+    margin-bottom: 5%;
+}
+.footer-company-logo img
+{
+    padding-bottom: 90px;
+}
+.logo a
+{
+    margin: 0 5px;
+    color: #fff;
+    padding: 8px 13px;
+    border-radius: 50%;
+    font-size: 24px;
+}
+.logo1
+{
+    padding: 8px 2px;
+}
+.logo a:hover
+{
+    background-color: #fff; 
+    transition: .5s;
+    box-shadow: 0 9px 40px -10px rgb(230, 230, 230);
+}
+.special-foods
+{
+    margin-bottom: 10px;
+}
+.special-foods a
+{
+    text-decoration: none;
+    color: #CD7F32;
+    font-size: 19px;
+    font-weight: 500;
+}
+.special-foods::before
+{
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background:#000;
+    width: 100px;
+    margin: 4px;
+}
+.special-foods::after
+{
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background:#000;
+    width: 100px;
+    margin: 4px;
+}
+
+
+@media (min-width: 320px) and (max-width: 790px)
+{
+    .navbar-brand img
+    {
+        width: 100px;
+    }
+    .about-content h1
+    {
+        font-size: 23px;
+    }
+    .about-content_p
+    {
+        font-size: 15px;
+    }
+    .container2-content_p
+    {
+        font-size: 24px;
+    }
+    .container3-about_content
+    {
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0 0;
+    }
+    .container3-about_content_p2
+    {
+        margin-right: 0;
+    }
+    .container3-about_content img
+    {
+        width: 80%;
+        margin-top: -30%;
+        box-shadow: 0 19px 29px -15px #000;
+    }
+    .container3-about_content_p2
+    {
+        text-align: center;
+    }
+    .container3-about_content img:hover
+    {
+        transform: translatey(-5%);
+        transition: .9s;
+    }
+    .container2-content_p
+    {
+        margin: 9% auto;
+    }
+    .container3-span_title,.container3-span
+    {
+        margin: 150px 0;
+    }
+    .container4
+    {
+       margin-top: 60%;
+    }
+    .footer1 input
+    {
+        width: 290px;
+    }
+    .footer1 textarea
+    {
+        width: 290px;
+    }
+}
+@media(min-width:320px) and (max-width:375px) {
+    .special-foods::before
+{
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background:#000;
+    width: 50px;
+    margin: 4px;
+}
+.special-foods::after
+{
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background:#000;
+    width: 50px;
+    margin: 4px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 1190px)
+{
+    .footer
+    {
+        flex-direction: column;
+        height: 180vh;
+    }
+    .footer-p1
+    {
+        width: 180%;
+        float: right;
+        margin-right: -29%;
+    }
+    .logo
+    {
+        text-align: center;
+        padding-top: 19%;
+    }
+    .logo a
+    {
+        margin: 0 5px;
+        color: #fff;
+        /* background-color: #fff; */
+        padding: 8px 15px;
+        border-radius: 50%;
+        font-size: 29px;
+    }
+    .logo1
+    {
+        padding: 8px 2px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 615px)
+{
+    .container5
+    {
+        padding: 10px;
+    }
+    .container5-p
+    {
+        font-size: 17px;
+    }
+    .container5 button a
+    {
+        text-decoration: none;
+        border-radius: 50px;
+        font-size: 19px;
+        color: #000;
+        background-color: rgb(224, 224, 224);
+        padding: 9px 50px;
+        font-family: serif;
+    }
+}
+@media (min-width: 425px) and (max-width: 790px)
+{
+    .container3-about_content img
+    {
+        width: 60%;
+        margin-top: -29%;
+    }
+}
+@media (min-width: 320px) and (max-width: 990px)
+{
+    .about-content
+    {
+        top: 50%;
+    }
+}
+#inputname,#inputmobilenumber,#inputemail
+{
+    visibility: hidden;
+    display: block;
+}
