@@ -1,6 +1,6 @@
 # resturent-website
 
-This is my simple Restaurant Website. It's responsive website...
+This is my Restaurant Website. In this restaurant website Include's Javascript. It's responsive website...
 
 - Here is Live Demo https://resturent-website.netlify.app/
 
