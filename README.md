@@ -6,7 +6,8 @@ This is my Restaurant Website. In this restaurant website Include's Javascript. 
 
 ## resturent-website
 
-![Capture](https://user-images.githubusercontent.com/90317197/162256738-5bbeec76-e0d5-4a0f-b6ca-03f2ca46aec7.JPG)
+![Capture4](https://user-images.githubusercontent.com/90317197/162258097-3fe5e7f7-c512-4d4b-83d3-07dd3af70286.JPG)
+
 
 
 
