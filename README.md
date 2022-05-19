@@ -2,7 +2,7 @@
 
 This is my Restaurant Website. In this restaurant website Include's Javascript. It's responsive website...
 
-- Here is Live Demo https://resturent-website.netlify.app/
+- Here is Live Demo https://restaurant-foodordering-website.netlify.app/
 
 ## resturent-website
 
